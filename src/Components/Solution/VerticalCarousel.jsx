@@ -95,12 +95,13 @@ const VerticalCarousel = ({ data, leadingText }) => {
                     key={item.id}
                     style={{
                       transform: `translateY(${determinePlacement(i)}px)`
+                        
                     }}
                   >
                  
                 {item.introline} <span className="slic" >  
                  &nbsp; &nbsp; 
-                  <  CallMadeSharpIcon/></span>
+                  </span>
                  
                   </button>
                 ))}

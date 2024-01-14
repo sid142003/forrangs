@@ -12,11 +12,14 @@ import Footer from './Components/Footer/Footer.jsx'
 import VerticalCarousel from './Components/Solution/VerticalCarousel.jsx'
 import Osolutionp from './Components/Osolutionp/Osolutionp.jsx'
 import Email from "./Components/Sendemail.jsx"
+
+
 const App = () => {
 
   return (
     <div className="App">
       <div className='discoverme mar' >
+     
         <Discoverme/>
         </div>
       <div className='wwr mar' >
@@ -35,7 +38,7 @@ const App = () => {
         <Mision/> 
       </div>
       <div className='oto_otp mar' >
-        <Email/>
+        {/* <Email/> */}
         <Organization/> 
       </div>
       <div className='oexpertise mar' >

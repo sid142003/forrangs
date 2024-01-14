@@ -9,7 +9,7 @@ import App_development from "../../assets/app.png"
 import Personal_finance from "../../assets/pf.png"
 import AR_application from "../../assets/ar.png"
 import Social_media_marketing from "../../assets/smm.png"
-import Web_development from "../../assets/Web.jpg"
+import Web_development from "../../assets/Web.png"
 
 
 

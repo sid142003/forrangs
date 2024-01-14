@@ -8,6 +8,7 @@
     height: 100vh;
     overflow:hidden;
     font-family: 'Lato', sans-serif;
+    z-index: 550;
 }
 
 .whatisfor{

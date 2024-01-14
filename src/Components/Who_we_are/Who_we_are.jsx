@@ -2,6 +2,7 @@ import React from 'react'
 import './Who_we_are.css'
 import letstalk from '../../assets/letstalk.svg'
 import Arrow from '../../assets/arrow.png'
+import CallMadeIcon from '@mui/icons-material/CallMade';
 function Who_we_are() {
   return (
     <>
@@ -40,7 +41,7 @@ function Who_we_are() {
     </div>
     <div className='wwr_letsTalki' >
     <img src={letstalk} alt="logo" />
-    <img className='arrow' src={Arrow} alt="" />
+<CallMadeIcon className='arrow' />
     </div>
     </div>
             </div>

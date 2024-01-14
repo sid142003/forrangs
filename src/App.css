@@ -25,8 +25,24 @@
   top: 2px;
   bottom: 50px;
   border-radius: 20px;
-  background: url("./assets/Discovermebg.png") no-repeat center center/cover;
+  background: url("./assets/backgroundnav.jpg") no-repeat center center/cover;
 
+  
+
+
+}
+
+
+
+.discoverme::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25); /* Adjust the alpha (last) value to control transparency */
+  overflow: hidden;
 }
 .osolutionp{
   
@@ -48,3 +64,12 @@ background: #0E6C6F;
   margin-top: 50px;
 }
 
+.oexpertise{
+  background: #0E6C6F;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}

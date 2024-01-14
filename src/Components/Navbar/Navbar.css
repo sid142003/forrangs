@@ -20,6 +20,8 @@
   left: 0%;
   height: 100%;
   width: 100%;
+  
+  
 }
 
 .nav_sec {
@@ -40,12 +42,37 @@
   
 }
 
+
+
+
+
 .nav_sec p {
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition:  0.3s ease-in-out;
+  display: inline-block;
   
+}
+.nav_sec p:hover {
+ 
+ animation: swirl 1s infinite alternate;
+
+  transform:  rotate(15deg) ;
+  
+}
+
+@keyframes swirl {
+  0% {
+      transform: rotate(0deg);
+  }
+  50% {
+      transform: rotate(-8deg);
+  }
+  100% {
+      transform: rotate(5deg);
+  }
 }
 .nav_letsTalk {
   position: absolute;
@@ -60,16 +87,20 @@ cursor: pointer;
   width: fit-content;
   height: 50px;
   top: 2%;
+  color: #0e6c6f;
   flex-shrink: 0;
   margin-right: 25px;
   transition:  0.5s ease-in-out;
 }
+
 .nav_letsTalk:hover {
-  transform: translateX(0px);
+ 
+ background: #0E6C6F;
+  font-size: 1.1rem;
   color: white;
 }
 
-
+/* 
 .nav_letsTalk::before {
   content: '';
   position: absolute;
@@ -79,7 +110,7 @@ cursor: pointer;
   left: 0;
   width: 0;
   height: 100%;
-  background-color: #2ecc71; /* Set the desired background color */
+  background-color: #2ecc71; 
   transition: width 0.5s ease-in-out;
 }
 
@@ -87,7 +118,7 @@ cursor: pointer;
   width: 100%;
  
   
-}
+} */
 
 
 .nav_letsTalki {
@@ -109,9 +140,11 @@ cursor: pointer;
   height: 35px;
 
   flex-shrink: 0;
+color: white;
 }
 
-@media (max-width: 1050px) {
+
+@media (max-width: 1150px) {
   .nav_sec {
 right: 25%;
  

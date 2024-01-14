@@ -38,8 +38,10 @@
   height: 100%;
   font-size: 18px;
   font-style: normal;
+  text-align: justify;
+  word-spacing: 1px;
   
-  line-height: 35px;
+  line-height: 33px;
 }
 .wwrlu {
   position: absolute;
@@ -57,10 +59,12 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  width: 250px;
+  width: 280px;
   text-align: left;
   line-height: normal;
   bottom: 70px;
+  
+  
 }
 .wwr_letsTalk {
   /* position: absolute; */
@@ -80,7 +84,37 @@
   flex-shrink: 0;
   margin-right: 25px;
   /* top: 18rem; */
+
+transition:  0.5s ease-in-out;
 }
+
+.wwr_letsTalk:hover {
+  cursor: pointer;
+  color: #0E6C6F;
+  font-size: 1.1rem;
+  background-color: #f6edd9;
+  
+}
+
+
+/* .wwr_letsTalk::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  z-index: -1;
+
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #2ecc71; 
+  transition: width 0.5s ease-in-out;
+}
+
+.wwr_letsTalk:hover::before {
+  width: 100%;
+ 
+  
+} */
 .wwr_letsTalki {
   /* position: absolute; */
 /* height:50px ;

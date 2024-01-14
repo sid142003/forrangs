@@ -8,7 +8,7 @@ import App_development from "./app.png"
 import Personal_finance from "./pf.png"
 import AR_application from "./ar.png"
 import Social_media_marketing from "./smm.png"
-import Web_development from "./Web.jpg"
+import Web_development from "./Web.png"
 
 const data =
 {
