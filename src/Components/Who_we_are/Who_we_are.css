@@ -1,0 +1,141 @@
+.parentwwr {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin-top: 20px;
+  height: 28rem;
+  width: 100%;
+  z-index: 50;
+  overflow: hidden;
+}
+
+.wwrleft {
+  position: absolute;
+
+  width: 40%;
+  height: 100%;
+  left: 4%;
+  color: #f6edd9;
+
+  font-size: 18px;
+  font-style: normal;
+ 
+  line-height: 40px; /* 200% */
+}
+.wwrright {
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 45%;
+  overflow: hidden;
+  right: 2%;
+  color: #f6edd9;
+  height: 100%;
+  font-size: 18px;
+  font-style: normal;
+  
+  line-height: 35px;
+}
+.wwrlu {
+  position: absolute;
+  color: #f6edd9;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.wwrlb {
+  position: absolute;
+  color: #f6edd9;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  width: 250px;
+  text-align: left;
+  line-height: normal;
+  bottom: 70px;
+}
+.wwr_letsTalk {
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 5px 25px 5px 25px;
+  right: 38%;
+  border-radius: 40px;
+  border: 1px solid #f6edd9;
+  background: transparent;
+  width: fit-content;
+  height: 50px;
+  color: white;
+
+  flex-shrink: 0;
+  margin-right: 25px;
+  /* top: 18rem; */
+}
+.wwr_letsTalki {
+  /* position: absolute; */
+/* height:50px ;
+width:50px; */
+  cursor: pointer;
+
+  right: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  /* top: 18rem; */
+}
+.arrow {
+  position: absolute;
+
+  width: 35px;
+  height: 35px;
+
+  flex-shrink: 0;
+}
+.wwrbutton{
+  position: absolute;
+  display: flex;
+ 
+  left: 0;
+  margin-top: 24.5rem;
+}
+@media (max-width:1200px){
+  .wwrright p{
+    font-size: 17px;
+    
+  line-height: 30px;
+  }
+  .wwrlb{
+    font-size: 16px;
+  
+  }
+}
+@media (max-width:1050px){
+  .wwrright p{
+    font-size: 17px;
+    
+  line-height: 30px;
+  }
+  .wwrlb{
+    font-size: 14.5px;
+  
+  }
+}
+@media (max-width:945px){
+  .wwrright p{
+    font-size: 15.5px;
+    
+  line-height: 30px;
+  }
+}

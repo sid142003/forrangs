@@ -1,0 +1,104 @@
+.parentmision{
+    position: relative;
+    display: flex;
+
+    justify-content: space-around;
+    /* align-items: center; */
+   color: white;
+
+}
+
+.misionimage{
+position: relative;
+
+flex-shrink: 0;
+border-radius: 20px;
+background: url('../../assets/Mision.png') no-repeat center center/cover;
+width: 400px;
+height: 350px;
+
+right: 0;
+}
+.misiontext{
+   
+    width: 50%;
+    left: 5%;
+}
+.misiontext1{
+
+    color: #F6EDD9;
+text-align: right;
+font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+line-height: normal;
+margin-bottom: 25px;
+}
+.misiontext2{
+    color: #F6EDD9;
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+line-height: normal;
+}
+
+@media (max-width:1200px){
+    .misiontext2{
+      font-size: 17px;
+      
+    line-height: 30px;
+    }
+  /* .misionimage{
+    width: 350px;
+    height: 300px;
+  
+  } */
+  }
+  @media (max-width:1050px){
+    .misiontext2{
+      font-size: 17px;
+      
+    line-height: 30px;
+    }
+    .misionimage{
+        width: 370px;
+        height: 340px;
+        margin-top: 4%;
+        }
+  }
+
+
+  @media (max-width:1000px){
+   
+    .parentmision{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column-reverse;
+        /* flex-direction:column; */
+        justify-content: center;
+        align-items: center;
+      
+       
+    
+    }
+    .misiontext{
+        
+        width: 100%;
+        /* border: 2px solid red; */
+        padding: 10px;
+       
+    }
+    .misionimage{
+        width: 80%;
+      
+        margin-top: 4%;
+        }
+        .misiontext1{
+            text-align: center;
+        }
+        .misiontext2{
+            text-align: justify;
+          font-size: 16px;
+        }
+      }

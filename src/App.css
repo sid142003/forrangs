@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  
+ 
+}*
+
+.App{
+    background: #0a2e36;
+    
+  
+    
+}
+
+.mar{
+  margin: 30px 18px 30px 18px;
+  /* border: 2px solid white; */
+}
+
+.discoverme {
+  
+  height: 94vh;
+  top: 2px;
+  bottom: 50px;
+  border-radius: 20px;
+  background: url("./assets/Discovermebg.png") no-repeat center center/cover;
+
+}
+.osolutionp{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  height: 43rem;
+  border-radius: 20px;
+background: #0E6C6F;
+
+}
+.ovision{
+  margin-top: 50px;
+  margin-bottom: 70px;
+  
+}
+.footer{
+  margin-top: 50px;
+}
+

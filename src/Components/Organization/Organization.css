@@ -1,0 +1,74 @@
+
+.oupperdiv{
+    text-align: center;
+    padding: 10px 0 20px 0;
+    color: white;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+}
+.olowerdiv{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 30px;
+
+}
+
+.ol{
+    width: 565.022px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+height: 300px;
+
+border-radius: 20px;
+background: url('../../assets/otp.png') no-repeat center center/cover;
+
+
+}
+.ol p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+flex-shrink: 0;
+border-radius: 40px;
+background: #F6EDD9;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 565px;
+height: 300px;
+
+border-radius: 20px;
+background: url('../../assets/oto.png') no-repeat center center/cover;
+
+}
+.or p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    width: 300px;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    
+    font-size: 15px;
+    font-style: normal;
+flex-shrink: 0;
+border-radius: 40px;
+background: #F6EDD9;
+}

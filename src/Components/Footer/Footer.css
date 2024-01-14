@@ -1,0 +1,117 @@
+.parentfooter{
+    border-radius: 20px;
+background: #F6EDD9;
+/* width: 100%; */
+
+flex-shrink: 0;
+padding: 50px;
+
+}
+.footera{
+    
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+   
+}
+.footerar{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+   right: 50px;
+   margin-top: 100px;
+   width: 183px;
+   color: #0E6C6F;
+   font-family: 'Poppins', sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+line-height: normal;
+    /* margin-left: 50px; */
+
+}
+
+.footeral{
+    color: #0E6C6F;
+  
+    gap: 15px;
+    overflow: hidden;
+
+  
+    
+}
+.footerlogo{
+    background: url('../../assets/Logo.png') no-repeat;
+}
+.footerb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0E6C6F;
+}
+.footertalk{
+   position: relative;
+   
+
+color: #F6EDD9;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+padding: 10px;
+
+height: 200px;
+font-weight: 600;
+line-height: 24px; 
+flex-shrink: 0;
+border-radius: 40px;
+background: #0E6C6F;
+}
+.visionf{
+    /* position: relative; */
+    top: 10px;
+    color: #0E6C6F;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 60px; /* 150% */
+}
+.footercon{
+    color: #0E6C6F;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+line-height: normal;
+}
+.footerlet{
+    color: #0E6C6F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    overflow: hidden;
+    height: 100%;
+    font-weight: 600;
+line-height: 60px; /* 150% */
+}
+.footerlets{
+   overflow: hidden;
+   font-family: 'Poppins', sans-serif;
+   font-size: 45px;
+   font-weight: 500;
+   font-style: normal;
+}
+.footerletss{
+    color: #4CAF4F;
+font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: normal;
+overflow: hidden;
+height: 100%;
+
+line-height: 60px;
+}

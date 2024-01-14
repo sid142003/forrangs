@@ -1,0 +1,110 @@
+
+.bgdiscover{
+    position: absolute;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+   width: 100%;
+    height: 100vh;
+    overflow:hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+.whatisfor{
+    position: relative;
+    text-align: center;
+    color: #FFF;
+top: -5%;
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-size: 4em;
+font-style: normal;
+font-weight: 600;
+}
+
+ 
+
+.logoline{
+    color: #FFF;
+    text-align: center;
+    
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    font-family: 'Lato', sans-serif;
+}
+.buttondp{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.buttond{
+    position: relative;
+    color: #FFF;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+
+font-family: 'Poppins', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+width: 214px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #0E6C6F;
+border: none;
+margin-top: 50px;
+left: -5%;
+height: 50px;
+cursor: pointer;
+transition: all 0.5s ease-in-out;
+
+}
+.buttonb{
+    font-family: 'Poppins', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+  background-color: transparent;
+  border: none;
+  color: #FFF;
+}
+.buttond:hover {
+    transform: translateX(0px);
+    color: white;
+  }
+  
+  
+  .buttond::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #2ecc71; /* Set the desired background color */
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .buttond:hover::before {
+    width: 100%;
+   
+    
+  }
+  
+
+@media screen and (max-width: 830px) {
+    .whatisfor{
+        font-size: 3em;
+    }
+}  
+
+
